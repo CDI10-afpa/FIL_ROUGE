@@ -1,0 +1,61 @@
+
+                            ```                    
+                      `:sdNMMMNdo-                
+                    :yNMMMMMMMMMMMm+`             
+      +           :dMMMMMMMMMMMMMMMMd`            
+     +M+        :dMMMMMNmMMMMMMMMMMMMh            
+    `y+m`     `hMMMMmo-:ssoosdMMMMMMMM+           
+    :`-hNmmdo:oMMMMo`    ``  `-hMMMMMMN/.         
+   ymdNMMMMMMNMMMM+    `+hs/    :mMMMMMyssoso.    
+   MMMMMMMMhMMMMMN`   /y+``o/.   :yhMMMy `..:y/   
+  .MMy-smh+dMMMMMm` .s+`    ./o-  `/MMMy  /` `h:  
+  sNm-  `  hMMMMMMo:s.        .h:  oMMM+  /s  .d  
+ `m-./o+/o`oMMMMMs+/`          /d  dMMN.  `N/` /  
+ -+.oy```. .NMMMMo:            /h `MMMyh-  MMo :- 
+`+ms/       +MMMMh             /y `NMM/d: -MMs`+s 
+-y/    `.`  ysMMMN`            .s+.sMMy` -mMMM/m/ 
+       .hmhodhyMMM+`-          `+ysyMMM:+NMMMMNy  
+        .dMMMMsmMMNdN`      `-/yMMNNMMMMMMMMMNy`  
+         `yMdmh:NMMMM+    .-:osdmMMMMMMMMMMNh:    
+          `mo   oMMNMm   -mmmMMmddMMMMNNNdo-      
+           :N`   y+-MM/  hs:/Nh.`hMMs::-`         
+            h+      oMd  . /No `dMMm/             
+            .o      `dM-  .d-  sNMMy`             
+                     -Ns  .`   -hN+               
+                      +N       +d-                
+                       o:     `+                  
+                        `                    
+
+Bonjour à toute et tous dans ce premier et dernier tuto sur GIT ! 
+
+Aujourd'hui je vais vous expliquer dans un premier temps en quoi consiste GIT, puis l'utilité de son integration sur Slack, et ensuite que faire de votre compte GITHUB et pourquoi j'en avais besoin.
+
+
+SLACK : Slack est une plate-forme de communication collaborative ainsi qu'un logiciel de gestion de projets. La plateforme a l'avantage de s'intégrer facilement avec d'autres outils (et bots) de service en ligne comme GitHub, Dropbox, Google Drive, etc et de pouvoir centraliser le suivi et la gestion d'un projet (des bots permettent de jouer le role de secretaire pour nous rappeler les taches a accomplir). Ce support est donc parfait pour permettre a la classe de pouvoir partager des informations, aider les autres, garder une trace des cours, etc. 
+
+GIT : Pour commencer, GIT c'est quoi ? C'est avant tout un logiciel de gestion de versionning décentralisé. C'est à dire qu'il va permettre de garder une trace de vos précédents enregistrements (commit et push sur git) pour revenir en arrière en cas de pépins...
+
+GITHUB : La plate-forme GITHUB utilise GIT pour gérer ce système de versionning, mais apporte l'interconnéctivité et le coté communautaire pour travailler à plusieurs au sein d'un même projet. Le système n'est pas parfait (si deux personnes travaillant sur leur branche respective sur un fichier identique, il ne sera pas possible de combiner le fichier dans master sans intervenir manuellement, enfin à ma connaissance). 
+
+
+Revennons sur quelques termes :
+¤ COMMIT : Enregistrement dans le dépot, ne sont uploadé que les fichiers (que vous selectionnerai ou non alors) ayant eu une modification depuis le dernier commit.
+¤ CHECKOUT : commande permettant de changer de branche
+¤ PUSH : Envoyer les changements au système distant
+¤ PULL : Récupère les changements depuis un système distant
+¤ VCS : Générallement utilisé lorsque vous pensez qu'il manque des fichiers
+
+Quelques racccourcis (testé sur Android Studio) pour Fernando :
+CTRL + K : 		COMMIT
+CTRL + MAJ + K : 	PUSH
+
+
+Concernant Slack, il fallait que chacun d'entre vous possède un compte GitHub personnel (vous en faites ce que vous voulez, il vous appartient) afin de vous ajouter en contributeurs sur un compte GitHub accessible par le formateur. Vous pourrez donc lier vos projets à votre compte personnel, puis faire occasionnelement des updates SUR VOTRE BRANCHE (reverifiez toujours a deux fois avant) sur ce github commun pour montrer vos avancées au formateur (lors de recettes, de problemes, etc). J'ai donc intégré deux bots pour ce qui concerne le repository et les push sur le channel #github.
+Les bots permettront au formateur de pouvoir acceder plus facilement à vos avancées, et de jeter un oeil aux fichiers uploadé en cliquant simplement sur le numéro d'identification du message. 
+
+
+DESAVENTAGE DU SYSTEME : Cela reste un github, les informations fournies sont donc visibles par tous (que ce soit votre compte perso ou le commun) a moins de prendre un compte payant.
+AVANTAGES : En plus du versionning, permet un partage plus rapide du code, surtout pour le travail collaboratif. Possibilité d'étudier le code des autres pour les grands debutants. Partage d'informations plus aisée sur slack, archives des messages, possibilités de chan privé en cas de groupe de travail, tout un tas d'outils a disposition, etc...
+
+
+Comment utiliser GITHUB ? Sur Android Studio ou autre : " Nouveau > Projet from verison control > GITHUB " puis sur votre navigateur internet, vous allez sur le projet ou vous souhaitez envoyer des infos (et ou vous etes soit contributeurs, soit proprietaire du projet), et a la racine du projet, en haut a droite vous verrez un lien "Clone or Download". En cliquant dessus, une URL apparait, recupérez la et mettez la dans votre projet java (ou autre) et validez. Si vous vous servez de votre propre github pour vos projets, et que vous souhaitez envoyer ponctuellement votre projet a marc, rendez vous sur le github https://github.com/CDI10-afpa, et apres avoir choisi le projet, ET SURTOUT VOTRE BRANCHE !!! vous verrez un boutton sur la gauche du boutton clone or download : "upload files"... Besoin de plus d'explications sincerement ?
